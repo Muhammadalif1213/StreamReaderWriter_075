@@ -7,6 +7,9 @@ int main() {
 	string baris;
 	string Namafile;
 
+	cout << "Masukan Nama File : ";
+	cin >> Namafile;
+
 	// membuka file dalam mode menulis.
 	ofstream outfile;
 	// menunjuk ke sebuah file
